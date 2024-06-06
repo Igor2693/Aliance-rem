@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+@font-face {
+  font-family: 'Bebas Neue Regular';
+  src: url('/fonts/BebasNeueRegular.woff') format('woff'),
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  max-width: 120rem;
+  margin: auto;
+  background-image: url(/img/bg-main.png);
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 5.875rem;
+}
+.shadow {
+  background: rgba(41, 45, 51, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  background-position: top;
+  margin-top: -5.8125rem;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+  padding: 0 3.125rem;
+  border-right: 1px solid rgba(235, 235, 240, 0.2);
+  height: 100%;
+}
+.nav {
+  height: 5.875rem;
+  width: 120rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.4s;
+  margin-bottom: 4.375rem;
+}
+.nav-light {
+  background: rgb(250, 251, 252);
+  color: rgb(41, 45, 51);
+  height: 4.625rem;
+}
+.nav-light .header-logo-path {
+  fill: rgb(41, 45, 51);
+}
+.header-nav {
+  margin-right: auto;
+}
+.nav-item {
+  /* color: rgb(255, 255, 255); */
+  color: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+  margin-left: 3.125rem;
+}
+.nav-item:hover {
+  text-decoration: underline;
+  
+}
+.header-nav {
+  color: inherit;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+}
+.tel {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  font-family: Noto Sans;
+  margin-left: .625rem;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+  background: rgb(92, 142, 230);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  height: 100%;
+  padding: 2.125rem 3.125rem;
+  margin-left: 3.125rem;
+  border: none;
+}
+.header-button:hover {
+  cursor: pointer;
+}
+
+.main {
+  width: 90rem;
+  position: relative;
+  margin: auto;
+}
+.main-info {
+  width: 75rem;
+}
+.rectangle {
+  width: 9.375rem;
+  border: 1px solid rgb(92, 142, 230);
+  margin-top: 9.375rem;
+  margin-bottom: 1.875rem;
+}
+.main-title {
+  color: #FFFFFF;
+  font-family: 'Bebas Neue Regular';
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 96px; 
+  margin: 0;
+}
+.main-subtitle {
+  width: 45rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 1.875rem;
+}
+.main-button {
+  background: rgb(92, 142, 230);
+  padding: 1.5625rem 3.75rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 25.6px;
+  border: none;
+  margin-top: 3.125rem;
+  margin-bottom: 6.25rem;
+}
+.main-button:hover {
+  cursor: pointer;
+}
+.icons-block {
+  display: flex;
+}
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 18rem;
+  height: 10.5rem;
+  padding-top: 1.875rem;
+  padding-left: 3.125rem;
+  border-top: 1px solid rgba(235, 235, 240, 0.2);
+  border-right: 1px solid rgba(235, 235, 240, 0.2);
+}
+.icon-item:first-child {
+  border-left: 1px solid rgba(235, 235, 240, 0.2);
+}
+.icon-text {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 25.6px;
+}
+.main-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.section {
+  max-width: 90rem;
+  margin:auto;
+}
+
+.step-card {
+  width: 20.625rem;
+}
+.step-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9.375rem;
+}
+.title-step {
+  font-family: 'Bebas Neue Regular';
+  font-weight: 400;
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  margin: 0;
+
+}
+.step-number {
+  display: flex;
+  align-items: center;
+  font-family: 'Bebas Neue Regular';
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+ color: #5C8EE5;
+}
+.step-number:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #EBEBF0;
+  margin-left: 1.875rem;
+}
+.card-title {
+  font-size: 1.75rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #828A99;
+  margin-bottom: 1.25rem;
+}
+
+
+.card-link {
+  display: flex;
+  align-items: center;
+  color: #5C8EE5;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  text-decoration: none;
+}
+.card-link::before {
+  content: "";
+  width: 2.5rem;
+  height: 1px;
+  background: #5C8EE5;
+  margin-right: 1.25rem;
+}
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1600px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1400px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+}
