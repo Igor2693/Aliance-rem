@@ -3,16 +3,42 @@ const logo = document.querySelector('.logo-svg use');
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 
+const lightModeOn = (event) => {
+  navbar.classList.add("navbar-light");
+  logo.href.baseVal = "/img/sprite.svg#logo-black";
+};
+
+const lightModeOff = (event) => {
+  navbar.classList.remove("navbar-light");
+  logo.href.baseVal = "/img/sprite.svg#logo-light";
+};
+
+
+const openMenu = (event) => { // Функция открыванию меню
+  menu.classList.add("is-open"); // вешает класс is-open
+  document.body.style.overflow = "hidden"; //запрещает прокрутку сайта под меню
+  lightModeOn();
+};
+
+const closeMenu = (event) => { // Функция закрытия меню
+  menu.classList.remove("is-open"); // убирает класс is-open
+  document.body.style.overflow = ""; //возвращает прокрутку сайта под меню
+  lightModeOff(); 
+};
+
+
 window.addEventListener('scroll', () => {
   if (this.scrollY > 1) {
-    navbar.classList.add("navbar-light");
-    logo.href.baseVal = "/img/sprite.svg#logo-black";
+    lightModeOn();
   } else {
-    navbar.classList.remove("navbar-light");
-    logo.href.baseVal = "/img/sprite.svg#logo-light";
+    lightModeOff();
   }
-}) 
+}) ;
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
-  menu.classList.toggle("is-open");
-});
+  if (menu.classList.contains('is-open')) {
+    closeMenu(); //Закрыть меню
+   } else { //Иначе...
+      openMenu(); //Открыть
+    }
+  });
