@@ -40,6 +40,9 @@ body {
 .phone-icon {
   fill: #5C8EE6;
 }
+.logo {
+  display: none;
+}
 .logo-svg {
   width: 9rem;
   height: 2.75rem;
@@ -187,6 +190,7 @@ body {
 .slider-buttons {
   display: none;
   height: 44px;
+  margin-bottom: 1rem;
 }
 .slider-button-prev, .slider-button-next {
   height: 100%;
