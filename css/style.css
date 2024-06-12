@@ -214,6 +214,7 @@ body {
 }
 .steps {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   gap: 1.875rem;
@@ -269,6 +270,21 @@ body {
   background: rgb(92, 142, 230);
   margin-right: 1.25rem;
 }
+.steps-buttons {
+  display: none;
+  height: 40px;
+  justify-content: flex-end;
+
+}
+.steps-button-prev, .steps-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgb(92, 142, 230);
+  height: 100%;
+  width: 60px;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -319,7 +335,9 @@ body {
   .slider-buttons {
     display: flex;
   }
-  
+  .steps-buttons {
+    display: flex;
+  }
 }
 @media (max-width: 992px) {
   html {
