@@ -371,13 +371,51 @@ body {
   width: 100%;
 }
 
+.marks-wrapper {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
 
-
-
-
-
-
-
+.marks-info {
+  width: 24.375rem;
+}
+.marks-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+}
+.marks-subtitle {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+  margin-top: .625rem;
+}
+.marks-card {
+  flex-basis: 50%;
+  display: flex;
+  padding: 3.125rem;
+  text-decoration: none;
+  border: 1px solid rgb(235, 235, 240);
+}
+.marks-img {
+  width: 11.25rem;
+  height: 11.25rem;
+  margin-right: 4.375rem;
+}
+.marks-card:hover {
+  border: 1px solid rgb(92, 142, 230);
+}
+.marks-card:hover .marks-title {
+  color: rgb(92, 142, 230);
+}
+.marks-card:hover .marks-img {
+  filter: hue-rotate(-100deg);
+  filter: saturate(900%)
+}
 
 
 
@@ -438,6 +476,13 @@ body {
   .card {
     flex-basis: 50%;
   }
+  .marks-card {
+    flex-basis: 100%;
+  }
+  .marks-wrapper {
+    flex-wrap: wrap;
+  }
+  
 }
 @media (max-width: 992px) {
   html {
@@ -571,6 +616,9 @@ body {
     .close-menu .mobile-menu-line:nth-child(3){
       transform: rotate(-45deg) translateY(-9px);
     }
+      .marks-card {
+        flex-basis: 100%;
+      }
     
 }
 @media (max-width: 768px) {
@@ -584,6 +632,9 @@ body {
     padding-top: 3rem;
   }
   .card {
+    flex-basis: 100%;
+  }
+  .marks-card {
     flex-basis: 100%;
   }
 }
