@@ -370,54 +370,52 @@ body {
   right: 0;
   width: 100%;
 }
-
-.marks-wrapper {
+.trademark-cards {
   display: flex;
-  /* flex-wrap: wrap; */
 }
-
-.marks-info {
-  width: 24.375rem;
+.trademark-card {
+  flex-basis: 50%;
+  padding: 50px;
+  text-decoration: none;
+  border: 1px solid #ebebf0;
+  transition: border 0.2s;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 3.125rem;
+  grid-template-areas: 
+  "logo title title" 
+  "logo text text"
+  ;
 }
-.marks-title {
-  color: rgb(41, 45, 51);
+.trademark-logo {
+  width: 100%;
+  grid-area: logo;
+}
+.trademark-card-title {
   font-size: 1.75rem;
   font-weight: 400;
-  line-height: 160%;
   margin: 0;
+  line-height: 160%;
+  color: #292d33;
+  grid-area: title;
 }
-.marks-subtitle {
-  color: rgb(130, 138, 153);
-  font-size: 1rem;
+.tardemark-card-text {
+  font-style: normal;
   font-weight: 400;
+  font-size: 1rem;
   line-height: 160%;
-  margin: 0;
+  color: #828a99;
+  grid-area: text;
   margin-top: .625rem;
 }
-.marks-title-mobile,
-.marks-subtitle-mobile {
-  display: none;
+.trademark-card:hover {
+  border-color: #5C8EE6;
 }
-.marks-card {
-  flex-basis: 50%;
-  display: flex;
-  /* flex-wrap: wrap; */
-  padding: 3.125rem;
-  text-decoration: none;
-  border: 1px solid rgb(235, 235, 240);
+.trademark-card:hover .trademark-card-title {
+  color: #5C8EE6;
 }
-.marks-img {
-  width: 11.25rem;
-  height: 11.25rem;
-  margin-right: 4.375rem;
-}
-.marks-card:hover {
-  border: 1px solid rgb(92, 142, 230);
-}
-.marks-card:hover .marks-title {
-  color: rgb(92, 142, 230);
-}
-.marks-card:hover .marks-img {
+.trademark-card:hover .trademark-logo {
   filter: hue-rotate(-100deg);
   filter: saturate(900%)
 }
@@ -486,6 +484,9 @@ body {
   }
   .marks-wrapper {
     flex-wrap: wrap;
+  }
+  .trademark-card {
+    grid-template-columns: auto auto;
   }
   
 }
@@ -625,6 +626,21 @@ body {
       .marks-card {
         flex-basis: 100%;
       }
+  .trademark-card {
+    flex-basis: 50%;
+    padding: 3.125rem;
+    text-decoration: none;
+    border: 1px solid #ebebf0;
+    transition: border 0.2s;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 1.5625rem;
+    grid-template-areas:
+      "logo title "
+      "text text"
+    ;
+  }
     
 }
 @media (max-width: 768px) {
@@ -642,6 +658,9 @@ body {
   }
   .marks-card {
     flex-basis: 100%;
+  }
+  .trademark-cards {
+    flex-direction: column;
   }
 }
 @media (max-width: 660px) {
@@ -837,45 +856,40 @@ body {
     margin-bottom: 25.6rem;
     word-spacing: -5px;
    }
-  .trademarks {
-    margin-top: -12px;
-   }
    .trade-invis {
     display: none;
    }
-   .marks-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    padding: 30px;
+
+
+   .trademark {
+    margin-top: 6.3125rem;
    }
-   .marks-img {
-    margin-right: 10px;
-    flex-shrink: 0;
+  .production {
+    margin-bottom: 8.375rem;
+   }
+  .trademark-card {
+    /* height: 16.75rem; */
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto;
+    grid-column-gap: 25px;
+    padding: 30px;
+  }
+  .trademark-card:nth-child(2) {
+    padding-top: 25px;
+  }
+  .trademark-logo {
     width: 100px;
     height: 100px;
-   }
-   .marks-info {
-    display: none;
-   }
-  .marks-title-mobile,
-  .marks-subtitle-mobile {
-    display: flex;
   }
-  .marks-title-mobile {
-    font-size: 27px;
-    line-height: 26px;
-    padding-top: 9px;
-    width: 155px;
+  .trademark-card-title {
+    font-size: 20px;
+    line-height: 27px;
   }
-
-  .marks-subtitle-mobile {
-    width: 285px;
+  .tardemark-card-text {
     font-size: 14px;
-    
+    line-height: 22.4px;
   }
-   
+  
 }
 
 
