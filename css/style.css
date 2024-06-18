@@ -270,7 +270,7 @@ body {
   margin-top: .625rem;
   margin-bottom: 1.25rem;
 }
-.steps-link {
+.button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -279,7 +279,7 @@ body {
   line-height: 160%;
   color: #5c8ee6;
 }
-.steps-link::before {
+.button-link::before {
   content: '';
   width: 2.5rem;
   height: 1px;
@@ -287,7 +287,7 @@ body {
   margin-right: 1.25rem;
   transition: 0.2s;
 }
-.steps-link:hover::before {
+.button-link:hover::before {
   width: 60px;
 }
 .steps-buttons {
@@ -419,7 +419,30 @@ body {
   filter: hue-rotate(-100deg);
   filter: saturate(900%)
 }
-
+.founder {
+  position: relative;
+}
+.founder-photo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  min-height: 41.25rem;
+  object-fit: cover;
+}
+.founder-content {
+  max-width: 45rem;
+}
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.founder-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
 
 
 
@@ -488,7 +511,9 @@ body {
   .trademark-card {
     grid-template-columns: auto auto;
   }
-  
+  .founder-content {
+    max-width: 35rem;
+  }
 }
 @media (max-width: 992px) {
   html {
@@ -661,6 +686,11 @@ body {
   }
   .trademark-cards {
     flex-direction: column;
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
   }
 }
 @media (max-width: 660px) {
