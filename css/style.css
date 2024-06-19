@@ -536,6 +536,10 @@ body {
 .client-logo-item:hover .clients-logo {
   filter: grayscale(0);
 }
+.founder {
+  margin-top: -116px;
+  margin-bottom: 9.375rem;
+}
 
 @media (max-width: 1700px) {
   html {
@@ -1006,19 +1010,41 @@ body {
     margin-bottom: 8.375rem;
    }
   .trademark-card {
-    /* height: 16.75rem; */
+    height: 16.75rem;
     grid-template-columns: auto 1fr;
     grid-template-rows: 1fr auto;
     grid-column-gap: 25px;
     padding: 30px;
   }
   .trademark-card:nth-child(2) {
-    padding-top: 25px;
+    padding-top: 16px;
+    padding-left: 26px;
+    padding-bottom: 14px;
   }
   /* .trademark-logo {
     width: 100px;
     height: 100px;
   } */
+  .trademark-card-ag {
+    height: 16.75rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-column-gap: 25px;
+    padding: 30px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+  }
+
+  .trademark-card-ap {
+    height: 16.75rem;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+    grid-column-gap: 44px;
+    grid-row-gap: 9px;
+    padding: 30px;
+
+  }
+
   .trademark-card-title {
     font-size: 20px;
     line-height: 27px;
@@ -1027,8 +1053,74 @@ body {
     font-size: 14px;
     line-height: 22.4px;
   }
+  .trademark-logo {
+    width: 162%;
+    height: 176%;
+    grid-area: logo;
+  }
    
-  
+ .founder-photo {
+  width: 375px;
+  height: 295px;
+  object-fit: contain;
+ }
+ .trademark-cards {
+  height: 537px;
+ }
+
+ .founder-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+ }
+ .founder-text {
+  font-size: 14px;
+  line-height: 22.4px;
+  margin-bottom: 16px;
+ }
+ .founder-content-wrapper {
+  margin-top: -128px;
+
+ }
+ .founder-content .button-link {
+  font-size: 15px;
+ }
+
+ .clients {
+  padding-top: 0px;
+  margin-top: -13px;
+ }
+ .client-title {
+  font-size: 36px;
+  line-height: 43.2px;
+ }
+ .clients-list-item {
+  gap: 21px;
+  font-size: 14px;
+ }
+ .client-logo-item:nth-child(9) {
+  display: none;
+ }
+ .client-logo-item {
+  padding-bottom: 32px;
+  padding-top: 27px;
+ }
+  .client-wrapper {
+    display: flex;
+    gap: 0;
+  }
+  .clients-logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 10;
+    padding-top: 3px;
+    margin-left: 0;
+  }
+  .clients-logo {
+    max-width: 100%;
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+  }
 }
 
 
