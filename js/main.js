@@ -108,6 +108,9 @@ const swiperBlog = new Swiper(".blog-slider", {
     prevEl: '.blog-button-prev',
   },
   breakpoints: {
+    300: {
+      slidesPerView: 1,
+    },
     // when window width is >= 320px
     576: {
       slidesPerView: 1,
