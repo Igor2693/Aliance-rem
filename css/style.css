@@ -841,6 +841,9 @@ body {
   align-items: center;
   gap: .625rem;
 }
+.desing {
+  display: none;
+}
 
 
 @media (max-width: 1700px) {
@@ -1664,6 +1667,7 @@ body {
   .footer-top {
     align-items: flex-start;
     margin-top: 32px;
+    padding-bottom: 27px;
   }
   .footer-logo {
     width: 13rem;
@@ -1671,6 +1675,80 @@ body {
   }
   .footer-phone {
     font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .footer-info-adress {
+    font-size: 15px;
+    margin-bottom: 9px;
+    word-spacing: -2px;
+  }
+  .footer-email {
+    margin-bottom: 12px;
+  }
+  .phone-icon-footer {
+    width: 24px;
+    height: 24px;
+  }
+  .footer-social-link {
+    margin-right: 12px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    padding-top: 29px;
+    padding-bottom: 12px;
+  }
+  .footer-menu-title {
+    font-size: 15px;
+    margin-bottom: 21px;
+  }
+  .footer-list-1 {
+    columns: 1;
+  }
+  .footer-menu-list {
+    margin-left: 21px;
+  }
+  .footer-menu-link {
+    font-size: 14px;
+  }
+  .footer-menu-item {
+    margin-bottom: 9px;
+  }
+  .footer-list-2 {
+    margin-top: 19px;
+    margin-bottom: 15px;
+  }
+  .title-about {
+    margin-bottom: 31px;
+  }
+  .title-news {
+    margin-bottom: 28px; 
+  }
+  .footer-copy {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 19px;
+  }
+  .politics {
+    margin-left: 0;
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+  .copy {
+    font-size: 12px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .made-in {
+    display: none;
+  }
+  .desing {
+    display: flex;
+  }
+  .ruso-block {
+    gap: 11px;
+  }
+  .footer-ruso {
+    width: 55px;
   }
  
 }
