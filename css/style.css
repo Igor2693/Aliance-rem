@@ -17,7 +17,7 @@ body {
 .container {
   max-width: 90rem;
   margin: auto;
-  padding-left: .75rem;
+  padding-left: .74rem;
 }
 
 .navbar {
@@ -62,6 +62,7 @@ body {
   background-image: url('/img/bg-main.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  
   background-position: center top;
   position: relative;
     
@@ -90,7 +91,7 @@ body {
   height: 100%;
   list-style: none;
   padding: 0;
-  padding-left: 3.125rem;
+  padding-left: 2.75rem;
   margin: 0;
 
 }
@@ -196,6 +197,7 @@ body {
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
+
 .header-features-text {
   font-size: 1rem;
   line-height: 160%;
@@ -222,7 +224,7 @@ body {
 }
 .section {
   margin-top: 8.3125rem;
-  margin-bottom: 9.375rem;
+  /* margin-bottom: 9.375rem; */
 }
 .section-title {
   font-family: 'Bebas Neue';
@@ -235,7 +237,7 @@ body {
 }
 .steps {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   list-style: none;
   padding: 0;
   gap: 1.875rem;
@@ -320,13 +322,14 @@ body {
 
 .production {
   margin-bottom: 9.375rem;
+  margin-top: 8.4375rem;
 }
 .production-title {
   color: rgb(41, 45, 51);
   font-family: Bebas Neue;
   font-size: 3.75rem;
   line-height: 120%;
-  margin-top: .5rem;
+  margin-top: 1.5rem;
   margin-bottom: 3.5625rem;
   word-spacing: .25rem;
 }
@@ -347,7 +350,7 @@ body {
   line-height: 120%;
   margin-top: 1.6875rem;
   margin-bottom: 1.5625rem;
-  word-spacing: .4375rem;
+  /* word-spacing: .4375rem; */
 
 }
 .client-title {
@@ -357,7 +360,7 @@ body {
   line-height: 120%;
   margin-top: 1.6875rem;
   margin-bottom: 2.5rem;
-  word-spacing: .4375rem;
+  word-spacing: .25rem;
 
 }
 
@@ -478,11 +481,12 @@ body {
 }
 .founder-content {
   max-width: 45rem;
+  padding-left: .6875rem;
 }
 .founder-content-wrapper {
   display: flex;
   justify-content: flex-end;
-  padding-top: 3.375rem;
+  padding-top: 3.1875rem;
 }
 .founder-text {
   color: rgb(130, 138, 153);
@@ -523,7 +527,7 @@ body {
   flex-wrap: wrap;
   flex-shrink: 10;
   padding-top: 1.8125rem;
-  margin-left: -1.5rem;
+  margin-left: -1.5625rem;
 }
 .client-logo-item {
   flex-basis: 33%;
@@ -532,6 +536,7 @@ body {
   justify-content: center;
   border: 1px solid #ebebf0;
   padding: 1rem;
+  padding-bottom: 0;
   cursor: pointer;
   
 }
@@ -545,8 +550,15 @@ body {
   filter: grayscale(0);
 }
 .founder {
-  margin-top: -116px;
+  margin-top: 9.375rem;
   margin-bottom: 9.375rem;
+}
+.blog {
+  margin-top: 11.4375rem;
+}
+.section-blog {
+  word-spacing: .1875rem;
+  margin-bottom: 3.4375rem;
 }
 
 .blog-card {
@@ -558,6 +570,7 @@ body {
   min-height: 400px;
   text-decoration: none;
   color: #fff;
+  padding-bottom: 2.1875rem;
   
 }
 .blog-card-image {
@@ -575,13 +588,14 @@ body {
   font-weight: 400;
   line-height: 160%;
   margin: 0;
+  word-spacing: .1875rem;
 }
 .blog-card-text {
   color: rgb(255, 255, 255);
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .blog-slider-footer {
@@ -593,20 +607,22 @@ body {
 
 .bg-grey {
   background: #F0F2F5;
+  padding-top: 5.75rem;
+  padding-bottom: 6.2rem;
   
 }
 .section-cta {
   padding-top: 6.25rem;
-  padding-bottom: 6.25rem;
+  
   position: relative;
-  margin-top: 9.375rem;
+  margin-top: 8rem;
 
 }
 .cta-image {
   position: absolute;
   left: 0;
   bottom: 0;
-  max-width: 41rem;
+  max-width: 45rem;
   width: 50%;
 }
 .cta-form-wrapper {
@@ -614,7 +630,8 @@ body {
   justify-content: flex-end;
 }
 .cta-form {
-  max-width: 52.5rem;
+  width: 52.5rem;
+  margin-left: 37.4375rem;
 }
 .cta-title {
   margin: 0;
@@ -624,8 +641,8 @@ body {
   font-weight: 400;
   line-height: 25.6px;
   max-width: 40rem;
-  margin-top: 1.375rem;
-  margin-bottom: 2.5rem;
+  margin-top: 1.6875rem;
+  margin-bottom: 3.125rem;
   color: #828A99;
 }
 .input-group {
@@ -680,10 +697,10 @@ body {
   flex-shrink: 0;
   padding: 1.25rem 1.125rem;
   width: 14.6875rem;
+  font-size: .875rem;
 }
 .notify {
   display: flex;
-  
   gap: .625rem;
 }
 .notify-icon {
@@ -704,34 +721,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 160px;
+  padding-top: 3.6875rem;
+  padding-bottom: 3.125rem;
+  height: 10rem;
 }
 .footer-info {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: .625rem;
 }
 
 .footer-logo {
-  width: 200px;
+  width: 12.5rem;
+  margin-right: 6.375rem;
 }
 .footer-phone {
   color: rgb(41, 45, 51);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 160%;
   text-decoration: underline;
+  margin-right: 1.75rem;
 }
 .phone-icon-footer {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   
 }
 .footer-info-adress {
   color: #292D33;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
   font-style: normal;
@@ -740,6 +759,9 @@ body {
 .footer-social-link {
   text-decoration: none;
 }
+.footer-email {
+  margin-right: .8125rem;
+}
 .line-footer {
   background-color: rgb(235, 235, 240);
   height: 1px;
@@ -747,78 +769,79 @@ body {
 
 .footer-bottom {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.375rem;
+  padding-bottom: 2.3125rem;
   
 }
 .footer-menu-title {
   color: rgb(41, 45, 51);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   margin-top: 0;
 }
 .footer-menu-list {
   padding: 0;
   list-style: none;
   margin: 0;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 
 }
 .footer-list-1 {
   columns: 2 auto;
-  gap: 130px;
-  margin-right: 150px;
+  gap: 8.125rem;
+  margin-right: 7.375rem;
 }
 .footer-list-2 {
-  margin-right: 190px;
+  margin-right: 11.875rem;
 }
 .footer-menu-link {
   text-decoration: none;
   color: rgb(130, 138, 153);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
 }
 .footer-menu-item {
-  margin-bottom: 15px;
+  margin-bottom: .9375rem;
 }
 .footer-copy {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .copy {
   color: rgb(130, 138, 153);
-  font-size: 12px;
-  min-width: 360px;
+  font-size: .75rem;
+  min-width: 22.5rem;
   font-weight: 400;
   line-height: 160%;
   margin: 0;
 }
 .politics {
   color: rgb(130, 138, 153);
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 400;
   line-height: 160%;
   text-decoration: underline;
   margin-right: auto;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .made-in {
   color: rgb(130, 138, 153);
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 400;
   line-height: 160%;
 }
 .ruso-block {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: .625rem;
 }
+
 
 @media (max-width: 1700px) {
   html {
@@ -898,6 +921,34 @@ body {
   .client-content {
     flex-basis: 60%;
   }
+
+
+  .footer-logo {
+    width: 10rem;
+    margin-right: 1.5625rem;
+  }
+  .footer-phone {
+    font-size: 18px;
+  }
+  .footer-social {
+    /* width: 50px; */
+  }
+  .input-group-wrapper {
+    flex-direction: column;
+  }
+  .cta-form-footer {
+    flex-direction: column;
+  }
+  .cta-button {
+    width: 100%;
+  }
+  .footer-list-1 {
+    margin-right: 3.75rem;
+  }
+  .footer-list-2 {
+    margin-right: 8.8rem;
+  }
+
 }
 @media (max-width: 992px) {
   html {
@@ -1054,6 +1105,26 @@ body {
     flex-direction: column;
 
   }
+
+  .notify-icon {
+    flex-shrink: 0;
+  }
+  .cta-form {
+    width: 54.5rem;
+    margin-left: 29.4375rem;
+   }
+   .founder-content {
+     padding-left: 2.375rem;
+   }
+   .footer-logo {
+     display: none;
+   }
+   .footer-list-1 {
+    gap: 2.125rem;
+   }
+   .footer-list-2 {
+    margin-right: 4.8rem;
+   }
     
 }
 @media (max-width: 768px) {
@@ -1080,6 +1151,55 @@ body {
     width: 100%;
     margin-bottom: 3.125rem;
   }
+  .cta-image {
+    display: none;
+  }
+  .cta-form {
+    margin-left: 0;
+  }
+  .section-cta {
+    margin-top: 1rem;
+  }
+  .footer-logo {
+    display: inline-block;
+  }
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5625rem;
+    padding-bottom: 1rem;
+    height: 100%;
+  }
+  .bg-grey {
+    padding-top: 2.75rem;
+    padding-bottom: 2.2rem;
+  }
+  .blog {
+    margin-top: 4.4375rem;
+  }
+  .founder {
+    margin-top: 5.375rem;
+    margin-bottom: 3.375rem;
+  }
+  .footer-menu-list {
+    margin-left: .375rem;
+  }
+  .footer-list-2 {
+    margin-right: 3.8rem;
+  }
+  .footer-ruso {
+    width: 1.875rem;
+  }
+  .ruso-block {
+    align-items: center;
+  }
+  .politics {
+    margin-left: -2.75rem;
+  }
 }
 @media (max-width: 660px) {
   .marks-card {
@@ -1097,8 +1217,6 @@ body {
     padding-top: 2rem;
   }
  
-
-
     .marks-card {
       display: flex;
       flex-wrap: wrap;
@@ -1140,6 +1258,25 @@ body {
     }
   .client-logo-item {
     flex-basis: 50%;
+  }
+
+  .founder-content-wrapper {
+    justify-content: flex-start;
+  }
+  .client-logo-item:nth-child(9) {
+    display: none;
+  }
+  .cta-button {
+    font-size: 12px;
+  }
+  .footer-list-1 {
+    gap: 1.125rem;
+  }
+  .footer-list-1 {
+    margin-right: -0.25rem;
+  }
+  .footer-list-2 {
+    margin-right: 0.8rem;
   }
   
 }
@@ -1208,8 +1345,9 @@ body {
   .header-features {
     margin-top: 4.25rem;
   }
-  .section-light {
-    margin-top: 7.375rem;
+  .section-steps {
+    margin-top: 118px;
+    margin-bottom: 112px;
   }
   .section-title {
     margin: 0;
@@ -1486,6 +1624,55 @@ body {
     margin-top: 70px;
     padding-top: 45px;
   }
+  .section-steps {
+    margin-top: 89px;
+  }
+  .founder {
+    margin-top: -0.1875rem;
+  }
+  .founder-content {
+    padding-left: 0;
+  }
+  .clients {
+    padding-top: 60px;
+    margin-top: 18px;
+  }
+  .blog-card-title {
+    word-spacing: -2px;
+  }
+  .blog-slider-footer {
+    margin-top: 11px;
+  }
+  .section-cta {
+    margin-top: 89px;
+    padding-top: 1px;
+  }
+  .bg-grey {
+    padding-top: 43px;
+    padding-bottom: 48px;
+
+  }
+  .cta-button {
+    font-size: 15px;
+  }
+  .cta-form-text {
+    margin-bottom: 32px;
+  }
+  .notify {
+    gap: 11px;
+  }
+  .footer-top {
+    align-items: flex-start;
+    margin-top: 32px;
+  }
+  .footer-logo {
+    width: 13rem;
+    margin-bottom: 14px;
+  }
+  .footer-phone {
+    font-size: 28px;
+  }
+ 
 }
 
 @media (max-width: 200px) {
