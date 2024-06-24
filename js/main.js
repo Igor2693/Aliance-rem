@@ -129,5 +129,49 @@ const swiperBlog = new Swiper(".blog-slider", {
   }
 });
 
+const modal = document.querySelector('.modal');
+const modalToggle = document.querySelectorAll("[data-toggle=modal]");
+const modalClose = document.querySelector('.modal-close');
+
+
+
+console.log(modalToggle);
+modalToggle.forEach((Element) => {
+  Element.addEventListener("click", (event) => {
+    event.preventDefault();
+    modal.classList.add("is-open");
+    
+    
+
+
+  });
+});
+modalClose.addEventListener("click", (event) => {
+  event.preventDefault();
+   modal.classList.remove("is-open");
+   
+});
+
+
+window.addEventListener('keydown', (event) => {
+  if (event.key ==="Escape") {
+    document.querySelector(".modal").classList.remove("is-open")
+  };
+});
+
+
+
+
+document.querySelector('.modal .modal-dialog').addEventListener('click', event => {
+  event._isClickWithInModal = true;
+});
+document.querySelector('.modal').addEventListener('click', event => {
+  if (event._isClickWithInModal) return;
+  event.currentTarget.classList.remove('is-open');
+});
+
+
+
+
 
   

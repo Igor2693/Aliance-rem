@@ -473,7 +473,6 @@ body {
 }
 .founder-photo {
   position: absolute;
-  left: .1875rem;
   top: .1875rem;
   width: 44%;
   min-height: 41.25rem;
@@ -669,7 +668,7 @@ body {
   left: 0;
   padding: 1.25rem 1.875rem;
   border: 1px solid #e4e4eb;
-  background-color: #f0f2f5;
+  background-color: inherit;
 }
 .input-group-wrapper {
   display: flex;
@@ -755,6 +754,7 @@ body {
   line-height: 160%;
   font-style: normal;
   text-decoration: none;
+  cursor: pointer;
 }
 .footer-social-link {
   text-decoration: none;
@@ -844,7 +844,92 @@ body {
 .desing {
   display: none;
 }
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+  transition: opacity 0.2s;
+  
+}
+.modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal-dialog {
+  margin: auto;
+  max-width: 28.75rem;
+  padding: 2.5rem 3.125rem;
+  background-color: #FAFBFC;
+  position: relative;
 
+}
+.modal-title {
+  margin: 0;
+  font-family: Bebas Neue;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #292D33;
+  margin-bottom: 20px;
+  /* display: inline-block; */
+}
+.modal-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #828A99;
+  max-width: 360px;
+  margin-bottom: 30px;
+}
+.modal-close {
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  border: 1px solid #EBEBF0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+.input-group-modal {
+  flex-direction: column;
+  gap: 30px;
+}
+.modal-form-footer {
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 0;
+}
+.modal-button {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.modal-icon {
+  flex-shrink: 0;
+}
+.modal-input-label {
+  background-color: #fff;
+}
+.input-modal-bg {
+  background-color: #fff;
+}
+.input:focus~.modal-input-label {
+  background-color: #fff;
+}
+a:hover {
+  color: #7ca7f0;
+}
 
 @media (max-width: 1700px) {
   html {
@@ -1127,6 +1212,9 @@ body {
    }
    .footer-list-2 {
     margin-right: 4.8rem;
+   }
+   a:hover {
+    color: inherit;
    }
     
 }

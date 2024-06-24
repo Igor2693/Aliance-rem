@@ -139,7 +139,7 @@
       <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
     </div>
     <!-- /.header-phone -->
-    <button class="navbar-button button">
+    <button class="navbar-button button" data-toggle='modal'>
       <svg class="button-icon" width="24" height="24">
         <use href="/img/sprite.svg#phone"></use>
       </svg>
@@ -646,7 +646,7 @@
             <svg class="phone-icon-footer" width="24" height="24">
               <use href="/img/sprite.svg#mark"></use>
             </svg>
-            <address class="footer-info-adress">г. Мосвка, Холодильный пер. 4к1с8</address>
+            <a class="footer-info-adress">г. Мосвка, Холодильный пер. 4к1с8</a>
           </div>
           <!-- /.footer-info -->
           <div class="footer-info footer-email">
@@ -741,6 +741,45 @@
         <!-- /.container -->
     </footer>
     <!-- /.footer -->
+
+    <div class="modal">
+      <div class="modal-dialog">
+        <h2 class="modal-title">Есть вопросы?</h2>
+        <a href="" class="modal-close"> 
+          <img src="/img/close.svg" alt="close icon" class="close-icon">
+        </a>
+        <p class="modal-text">
+          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <form action="#" class="modal-form">
+          <div class="input-group-wrapper input-group-modal">
+            <div class="input-group modal-input-group">
+              <input id="modal-user-name" type="text" class="input input-modal-bg" placeholder="">
+              <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
+            </div>
+            <div class="input-group input-modal">
+              <input id="modal-user-phone" type="tel" class="input input-modal-bg" placeholder="">
+              <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
+            </div>
+          </div>
+          <!-- /.input-group-wrapper -->
+          <div class="cta-form-footer modal-form-footer">
+            <button type="submit" class="button cta-button modal-button">Отправить заявку</button>
+            <div class="notify">
+              <svg width="14" height="14" class="notify-icon modal-icon">
+                <use href="/img/sprite.svg#sheild"></use>
+              </svg>
+              <p class="notify-text">
+                Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность информации!
+              </p>
+            </div>
+          </div>
+          <!-- /.cta-form-footer -->
+        </form>
+      </div>
+      <!-- /.modal-dilog -->
+    </div>
+    <!-- /.modal -->
 
 
   <script src="/js/swiper-bundle.min.js"></script>
