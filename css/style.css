@@ -36,14 +36,25 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+  /* height: 4.5rem; */
+}
+.logo-dark {
+  display: none;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
   height: 4.5rem;
+
 }
 .phone-icon {
   fill: #5C8EE6;
 }
-.logo {
-  display: none;
-}
+
 .logo-svg {
   width: 9rem;
   height: 2.75rem;
@@ -931,6 +942,161 @@ a:hover {
   color: #7ca7f0;
 }
 
+
+/* About */
+
+/* header */
+.header-about {
+  padding-top: 5.875rem;
+  background-color: #F0F2F5;
+  margin-bottom: 100px;
+}
+.about-content {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.about-title {
+  font-family: Bebas Neue;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 96px;
+  color: #292D33;
+  margin: 0;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+.breadcrumb {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+.dash {
+  border: 1px solid #828A99;
+  width: .875rem;
+  margin-left: .625rem;
+  margin-right: .625rem;
+}
+
+
+.breacrumb-link-1 {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: #828A99;
+  text-decoration: none;
+}
+.breacrumb-link-2 {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: #292D33;
+  text-decoration: none;
+  pointer-events: none;
+}
+/* main */
+
+.main-content {
+  display: flex;
+  align-items: center;
+}
+.main-image {
+  margin-right: 7.5rem;
+  width: 100%;
+  flex-basis: 50%;
+}
+.main-info {
+  width: 52.5rem;
+  min-height: 30rem;
+}
+.main-title {
+  font-family: Bebas Neue;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+  color: #292D33;
+  width: 37.5rem;
+}
+.main-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #828A99;
+
+}
+.main-slider-text {
+  color: #292D33;
+}
+/* .swiper-main {
+  width: 90rem;
+} */
+.main-border {
+  border-color: #EBEBF0;
+}
+.slider-buttons-main 
+.slider-button-prev,
+ .slider-button-next {
+  border-color: #EBEBF0;
+}
+
+/* manufacture */
+.manufacture {
+  margin-top: 9.375rem;
+}
+.manufacture-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.manufacture-left {
+  max-width: 45rem;
+}
+.manufacture-image {
+  width: 100%;
+  flex-basis: 50%;
+}
+.manufacture-title {
+  font-family: Bebas Neue;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+  color: #292D33;
+  margin: 0;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+.manufacture-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #828A99;
+  margin: 0;
+  margin-bottom: 1.875rem;
+}
+/* Study */
+.study-slider-footer {
+  justify-content: flex-end;
+}
+.study-text-wrapper {
+  display: flex;
+  
+}
+.study-text-left,
+.study-text-right {
+  max-width: 39.6875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #828A99;
+  margin: 0;
+  margin-bottom: 3.125rem;
+}
+.study-text-left {
+  margin-right: 6.25rem;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -1018,18 +1184,18 @@ a:hover {
   .footer-phone {
     font-size: 18px;
   }
-  .footer-social {
+  /* .footer-social { */
     /* width: 50px; */
   }
-  .input-group-wrapper {
+  /* .input-group-wrapper {
     flex-direction: column;
   }
   .cta-form-footer {
     flex-direction: column;
-  }
-  .cta-button {
+  } */
+  /* .cta-button {
     width: 100%;
-  }
+  } */
   .footer-list-1 {
     margin-right: 3.75rem;
   }
@@ -1037,7 +1203,9 @@ a:hover {
     margin-right: 8.8rem;
   }
 
-}
+  
+
+
 @media (max-width: 992px) {
   html {
     font-size: 12px;
@@ -1199,7 +1367,7 @@ a:hover {
   }
   .cta-form {
     width: 54.5rem;
-    margin-left: 29.4375rem;
+    margin-left: 39.4375rem;
    }
    .founder-content {
      padding-left: 2.375rem;
@@ -1216,6 +1384,24 @@ a:hover {
    a:hover {
     color: inherit;
    }
+  .input-group-wrapper {
+      flex-direction: column;
+    }
+  
+  .cta-form-footer {
+     flex-direction: column;
+    }
+
+  .cta-button {
+      width: 100%;
+    }
+
+
+        .main-image {
+          margin-right: 2.5rem;
+          width: 50%;
+          flex-basis: 50%;
+        }
     
 }
 @media (max-width: 768px) {
@@ -1253,6 +1439,7 @@ a:hover {
   }
   .footer-logo {
     display: inline-block;
+    margin-bottom: .125rem;
   }
   .footer-top {
     flex-direction: column;
@@ -1264,6 +1451,7 @@ a:hover {
     padding-top: 1.5625rem;
     padding-bottom: 1rem;
     height: 100%;
+    gap: .125rem;
   }
   .bg-grey {
     padding-top: 2.75rem;
@@ -1290,6 +1478,15 @@ a:hover {
   }
   .politics {
     margin-left: -2.75rem;
+  }
+  .study-text-wrapper {
+    flex-direction: column;
+  }
+  .study-text-left {
+    margin-right: 0;
+  }
+  .manufacture-wrapper {
+    flex-direction: column;
   }
 }
 @media (max-width: 660px) {
@@ -1369,6 +1566,47 @@ a:hover {
   .footer-list-2 {
     margin-right: 0.8rem;
   }
+
+
+    .footer-bottom {
+      flex-direction: column;
+      padding-top: 29px;
+      padding-bottom: 12px;
+    }
+  
+    .footer-menu-title {
+      font-size: 15px;
+      margin-bottom: 21px;
+    }
+  
+    .footer-list-1 {
+      columns: 1;
+    }
+  
+    .footer-menu-list {
+      margin-left: 21px;
+    }
+  
+    .footer-menu-link {
+      font-size: 14px;
+    }
+  
+    .footer-menu-item {
+      margin-bottom: 9px;
+    }
+  
+    .footer-list-2 {
+      margin-top: 19px;
+      margin-bottom: 15px;
+    }
+  
+    .title-about {
+      margin-bottom: 31px;
+    }
+  
+    .title-news {
+      margin-bottom: 28px;
+    }
   
 }
 
@@ -1780,7 +2018,7 @@ a:hover {
   .footer-social-link {
     margin-right: 12px;
   }
-  .footer-bottom {
+  /* .footer-bottom {
     flex-direction: column;
     padding-top: 29px;
     padding-bottom: 12px;
@@ -1810,7 +2048,7 @@ a:hover {
   }
   .title-news {
     margin-bottom: 28px; 
-  }
+  } */
   .footer-copy {
     flex-direction: column;
     align-items: flex-start;

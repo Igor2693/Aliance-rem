@@ -3,20 +3,19 @@ const logoLight = document.querySelector('.logo-light');
 const logo = document.querySelector('.logo');
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
+const isFront = document.body.classList.contains('front-page');
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
-  logo.style.display = "block";
-  logoLight.style.display = "none";
-  // logo.href.baseVal = "/img/sprite.svg#logo-black";
 };
 
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  // logo.href.baseVal = "/img/sprite.svg#logo-light";
-  logo.style.display = "none";
-  logoLight.style.display = "block";
-  
+};
+
+const changeNvHeight = (height) => {
+  navbar.style.height = height;
+
 };
 
 
@@ -35,7 +34,11 @@ const closeMenu = (event) => { // Функция закрытия меню
 };
 
 window.addEventListener('scroll', () => {
-  this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  this.scrollY > 1 ? changeNvHeight('4.5rem') : changeNvHeight('5.875rem');
+  if (isFront) {
+    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+
+  }
 });
 
 mMenuToggle.addEventListener("click", (event) => {
