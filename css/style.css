@@ -1005,11 +1005,11 @@ a:hover {
 }
 .main-image {
   margin-right: 7.5rem;
-  width: 100%;
-  flex-basis: 50%;
+  width: 30rem;
+  
 }
 .main-info {
-  width: 52.5rem;
+  /* width: 52.5rem; */
   min-height: 30rem;
 }
 .main-title {
@@ -1055,7 +1055,7 @@ a:hover {
   max-width: 45rem;
 }
 .manufacture-image {
-  width: 100%;
+  width: 37.5rem;
   flex-basis: 50%;
 }
 .manufacture-title {
@@ -1096,6 +1096,9 @@ a:hover {
 }
 .study-text-left {
   margin-right: 6.25rem;
+}
+.manufacture-image-adaptive {
+  display: none;
 }
 @media (max-width: 1700px) {
   html {
@@ -1397,13 +1400,17 @@ a:hover {
     }
 
 
-        .main-image {
-          margin-right: 2.5rem;
-          width: 50%;
-          flex-basis: 50%;
-        }
-    
+  .main-image {
+    margin-right: 1.5rem;
+   }
+  .manufacture-image {
+    width: 25.5rem;
+  }
+  .cta-form {
+    margin-left: 29.4375rem;
+  }
 }
+
 @media (max-width: 768px) {
   .container {
     max-width: 40rem;
@@ -1488,7 +1495,29 @@ a:hover {
   .manufacture-wrapper {
     flex-direction: column;
   }
+  .main-content {
+    flex-direction: column;
+  }
+  .main-image {
+    margin-bottom: 2.5rem;
+  }
+  .manufacture-image {
+    display: none;
+  }
+  .manufacture-image-adaptive {
+    display: block;
+    margin-bottom: 1.25rem;
+    width: 95%;
+  }
+  .founder-content {
+    padding-left: 0;
+  }
+  .founder-content-wrapper {
+    justify-content: flex-start;
+  }
 }
+
+
 @media (max-width: 660px) {
   .marks-card {
     width: 100%;
@@ -1564,7 +1593,7 @@ a:hover {
     margin-right: -0.25rem;
   }
   .footer-list-2 {
-    margin-right: 0.8rem;
+    margin-right: .8rem;
   }
 
 
@@ -1683,6 +1712,7 @@ a:hover {
     margin-top: 18px;
     font-size: 36px;
     margin-bottom: 19px;
+    font-weight: 400;
   }
   .section-blog {
     margin-bottom: 32px;
@@ -1698,6 +1728,7 @@ a:hover {
   }
   .steps-title {
     margin-top: .875rem;
+    font-weight: 400;
   }
   .steps-item {
     max-width: 27.625rem;
@@ -1729,6 +1760,7 @@ a:hover {
       margin-top: 17px;
       word-spacing: 4px;
       margin-bottom: 32px;
+      font-weight: 400;
    }
    .card-info {
     padding-top: 1.5rem;
@@ -1828,6 +1860,7 @@ a:hover {
  .founder-title {
   font-size: 36px;
   margin-bottom: 10px;
+  font-weight: 400;
  }
  .founder-text {
   font-size: 14px;
@@ -1849,6 +1882,7 @@ a:hover {
  .client-title {
   font-size: 36px;
   line-height: 43.2px;
+  font-weight: 400;
  }
  .clients-list-item {
   gap: 21px;
@@ -1963,7 +1997,7 @@ a:hover {
     padding-left: 0;
   }
   .clients {
-    padding-top: 60px;
+    /* padding-top: 60px; */
     margin-top: 18px;
   }
   .blog-card-title {
@@ -2076,6 +2110,30 @@ a:hover {
   .footer-ruso {
     width: 55px;
   }
+
+  .main-image {
+    width: 76%;
+    margin-left: 30px;
+  }
+  .main-info {
+    width: 100%;
+  }
+  .main-title {
+    width: auto;
+    font-size: 36px;
+  }
+  .study-text-left {
+    display: none;
+  }
+  /* .section-study {
+    margin-bottom: 200px;
+  } */
+  .study-slider-footer {
+    margin-top: 145px;
+  }
+  .about-title {
+    font-size: 48px;
+  }
  
 }
 
@@ -2085,8 +2143,6 @@ a:hover {
   }
   .client-logo-item:nth-child(9) {
     display: none;
+  }
 }
-
-}
-
 
