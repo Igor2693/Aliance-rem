@@ -563,6 +563,10 @@ body {
   margin-top: 9.375rem;
   margin-bottom: 9.375rem;
 }
+.founder-about {
+  margin-top: 8.9375rem;
+  margin-bottom: 12.625rem;
+}
 .blog {
   margin-top: 11.4375rem;
 }
@@ -962,8 +966,9 @@ a:hover {
   line-height: 96px;
   color: #292D33;
   margin: 0;
-  margin-top: 1.875rem;
-  margin-bottom: 1.25rem;
+  margin-top: 1.4375rem;
+  word-spacing: .1875rem;
+  margin-bottom: 1.6875rem;
 }
 .breadcrumb {
   margin: 0;
@@ -1001,7 +1006,7 @@ a:hover {
 
 .main-content {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .main-image {
   margin-right: 7.5rem;
@@ -1009,8 +1014,7 @@ a:hover {
   
 }
 .main-info {
-  /* width: 52.5rem; */
-  min-height: 30rem;
+  margin-top: 3.125rem;
 }
 .main-title {
   font-family: Bebas Neue;
@@ -1019,6 +1023,10 @@ a:hover {
   line-height: 4.5rem;
   color: #292D33;
   width: 37.5rem;
+  margin: 0;
+  margin-top: 1.4375rem;
+  margin-bottom: 1.6875rem;
+  word-spacing: .1875rem;
 }
 .main-subtitle {
   font-size: 1rem;
@@ -1044,15 +1052,16 @@ a:hover {
 
 /* manufacture */
 .manufacture {
-  margin-top: 9.375rem;
+  margin-top: 8.4375rem;
 }
 .manufacture-wrapper {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 .manufacture-left {
   max-width: 45rem;
+  margin-top: 3rem;
 }
 .manufacture-image {
   width: 37.5rem;
@@ -1065,8 +1074,9 @@ a:hover {
   line-height: 4.5rem;
   color: #292D33;
   margin: 0;
-  margin-top: 1.875rem;
-  margin-bottom: 1.25rem;
+  margin-top: 1.5rem;
+  word-spacing: .3125rem;
+  margin-bottom: 1.75rem;
 }
 .manufacture-subtitle {
   font-size: 1rem;
@@ -1077,6 +1087,9 @@ a:hover {
   margin-bottom: 1.875rem;
 }
 /* Study */
+.section-study {
+  margin-bottom: 6.25rem;
+}
 .study-slider-footer {
   justify-content: flex-end;
 }
@@ -1097,8 +1110,19 @@ a:hover {
 .study-text-left {
   margin-right: 6.25rem;
 }
+.study-title {
+  width: 37.5rem;
+  margin-bottom: 1.8125rem;
+}
 .manufacture-image-adaptive {
   display: none;
+}
+/* cta */
+.about-cta {
+  margin-top: 160px;
+}
+.about-list-1 {
+  margin-right: 7.3125rem;
 }
 @media (max-width: 1700px) {
   html {
@@ -1175,6 +1199,7 @@ a:hover {
   .founder-content {
     max-width: 35rem;
   }
+  
   .client-content {
     flex-basis: 60%;
   }
@@ -1852,6 +1877,7 @@ a:hover {
   width: 375px;
   height: 295px;
   object-fit: contain;
+  margin-bottom: 20px;
  }
  .trademark-cards {
   height: 537px;
@@ -1865,7 +1891,8 @@ a:hover {
  .founder-text {
   font-size: 14px;
   line-height: 22.4px;
-  margin-bottom: 16px;
+  margin-bottom: 21px;
+  margin-top: 0;
  }
  .founder-content-wrapper {
   margin-top: -128px;
@@ -1873,8 +1900,12 @@ a:hover {
  }
  .founder-content .button-link {
   font-size: 15px;
+  gap: 14px;
  }
 
+ .section-study {
+  margin-top: 98px;
+ }
  .clients {
   padding-top: 0px;
   margin-top: -13px;
@@ -1991,7 +2022,7 @@ a:hover {
     margin-top: 89px;
   }
   .founder {
-    margin-top: -0.1875rem;
+    margin-top: -30px;
   }
   .founder-content {
     padding-left: 0;
@@ -2112,8 +2143,10 @@ a:hover {
   }
 
   .main-image {
-    width: 76%;
-    margin-left: 30px;
+    margin-top: -49px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 11px;
   }
   .main-info {
     width: 100%;
@@ -2121,6 +2154,8 @@ a:hover {
   .main-title {
     width: auto;
     font-size: 36px;
+    margin-top: 13px;
+    line-height: 47px;
   }
   .study-text-left {
     display: none;
@@ -2129,10 +2164,67 @@ a:hover {
     margin-bottom: 200px;
   } */
   .study-slider-footer {
-    margin-top: 145px;
+    margin-top: 153px;
+    
   }
   .about-title {
     font-size: 48px;
+    margin: 0;
+  }
+
+  .about-content {
+    padding-top: 48px;
+    padding-bottom: 50px;
+  }
+  .main-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #828A99;
+    width: 343px;
+  }
+  .manufacture {
+    margin-top: 51px;
+  }
+  .manufacture-title {
+    font-size: 36px;
+    margin-top: 14px;
+    margin-bottom: 24px;
+  }
+  .manufacture-image-adaptive {
+    width: 100%;
+    margin-bottom: 31px;
+  }
+  .manufacture-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #828A99;
+    margin: 0;
+    margin-bottom: 17px;
+  }
+  .study-title {
+    width: 350px;
+    margin-bottom: 11px;
+  }
+  .study-text-right {
+    display: none;
+  }
+  .study-text-left {
+    display: block;
+    font-size: 14px;
+    word-spacing: 1px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .about-clients {
+    margin-top: 100px;
+  }
+  .about-title-cta {
+    margin-top: 8px;
+  }
+  .about-phone {
+    margin-bottom: 16px;
   }
  
 }
