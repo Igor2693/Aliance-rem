@@ -22,7 +22,7 @@
                 <input 
                 id="user-phone" 
                 type="tel" 
-                class="input"
+                class="input phone-mask"
                 name="userphone"
                 placeholder="">
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
@@ -222,12 +222,11 @@
       <!-- /.modal-dilog -->
     </div>
     <!-- /.modal -->
-
-
+  
+  
   <script src="/js/swiper-bundle.min.js"></script>
   <script src="/js/just-validate.production.min.js"></script>
   <script src="/js/main.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/jquery.maskedinput.min.js"></script>
+  
 </body>
 </html>
