@@ -165,7 +165,7 @@
         <p class="modal-text">
           Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <form action="handler.php" class="modal-form">
+        <form action="handler.php" method="POST" class="modal-form">
           <div class="input-group-wrapper input-group-modal">
             <div class="input-group modal-input-group">
               <input 
@@ -205,8 +205,29 @@
     </div>
     <!-- /.modal -->
 
+    <div class="modal-send">
+      <div class="modal-dialog-send">
+        <img src="img/send.png" alt="image send" class="image-send">
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a href="" class="modal-close-send"> 
+          <img src="/img/close.svg" alt="close icon" class="close-icon">
+        </a>
+        <p class="modal-text">
+          Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <button class="button-back">
+          <a href="./" class="send-link">Вернуться на главную</a>
+        </button>
+      </div>
+      <!-- /.modal-dilog -->
+    </div>
+    <!-- /.modal -->
+
 
   <script src="/js/swiper-bundle.min.js"></script>
+  <script src="/js/just-validate.production.min.js"></script>
   <script src="/js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
 </body>
 </html>

@@ -131,6 +131,8 @@ const swiperBlog = new Swiper(".blog-slider", {
     }
   }
 });
+const modalSend = document.querySelector('.modal-send');
+const modalSendDialog = document.querySelector('.modal-dialog-send');
 
 const modal = document.querySelector('.modal');
 const modalDialog = document.querySelector('.modal-dialog');
@@ -152,6 +154,62 @@ document.addEventListener('keyup', (event) => {
   if (event.key == 'Escape' && modal.classList.contains('is-open')) {
     modal.classList.toggle('is-open');
   };
+});
+
+
+const forms = document.querySelectorAll("form"); //Собираем все формы
+forms.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+ validation
+ .addField("[name=username]", [
+ {
+  rule: 'required',
+  errorMessage: "Введите имя",
+ },
+ {
+  rule: 'maxLength',
+  value: 30,
+  errorMessage: "Допустимое число символов 30",
+
+ },
+ ])
+ .addField("[name=userphone]", [
+ {
+ rule: 'required',
+ errorMessage: "Введите номер",
+ },
+])
+ .onSuccess((event) => {
+ const thisForm = event.target; //наша форма
+ const formData = new FormData(thisForm); //данные из нашей формы
+ const ajaxSend = (formData) => {
+  fetch(thisForm.getAttribute("action"), {
+    method: thisForm.getAttribute("method"),
+    body: formData,
+  }).then((response) => {
+    if (response.ok) {
+      thisForm.reset();
+      modalSend.classList.add("is-open");
+      
+    } else {
+      alert(response.statusText);
+      }
+   });
+  };
+  ajaxSend(formData);
+ });
+  });
+
+document.addEventListener('keyup', (event) => {
+  if (event.key == 'Escape' && modalSend.classList.contains('is-open')) {
+    modalSend.classList.toggle('is-open');
+  };
+});
+
+jQuery(function($){
+  $("#user-phone").mask("+7(999)-99-99");
 });
 
 
