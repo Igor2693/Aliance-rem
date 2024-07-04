@@ -208,9 +208,6 @@ document.addEventListener('keyup', (event) => {
   };
 });
 
-jQuery(function($){
-  $("#user-phone").mask("+7(999)-99-99");
-});
 
 
 
