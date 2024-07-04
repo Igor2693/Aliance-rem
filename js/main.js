@@ -155,6 +155,7 @@ document.addEventListener('keyup', (event) => {
     modal.classList.toggle('is-open');
   };
 });
+const sendClose = document.querySelector("button-back");
 
 
 const forms = document.querySelectorAll("form"); //Собираем все формы

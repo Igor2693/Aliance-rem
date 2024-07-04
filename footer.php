@@ -215,8 +215,10 @@
         <p class="modal-text">
           Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <button class="button-back">
-          <a href="./" class="send-link">Вернуться на главную</a>
+        <button 
+        onclick="document.location='index.php'"         
+        type="submit" class="button-back" data-toggle='modal-2'>
+          <span class="send-link">Вернуться на главную</span>
         </button>
       </div>
       <!-- /.modal-dilog -->
