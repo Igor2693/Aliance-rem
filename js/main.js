@@ -202,6 +202,11 @@ forms.forEach((form) => {
  });
   });
 
+modalSend.addEventListener("click", (event) => {
+  if(!event.composedPath().includes(modalSendDialog)) {
+    modalSend.classList.remove("is-open");
+  }
+});
 document.addEventListener('keyup', (event) => {
   if (event.key == 'Escape' && modalSend.classList.contains('is-open')) {
     modalSend.classList.toggle('is-open');
