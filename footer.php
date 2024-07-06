@@ -94,7 +94,7 @@
             <h2 class="footer-menu-title">Контрактное производство</h2>
             <ul class="footer-menu-list footer-list-1">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автомобильная химия</a>
+                <a href="/avtohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Бытовая химия</a>
@@ -118,7 +118,7 @@
             <h2 class="footer-menu-title">Собственные марки</h2>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+                <a href="/avtohim-ag.php" class="footer-menu-link">Автохимия AG-Tech</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Автохимия AP</a>
@@ -142,7 +142,7 @@
             <p class="copy">
               &copy; <?php echo date('d.m.Y');?> «Aliance Production». Все права защищены.
             </p>
-            <a href="#" class="politics">Политики конфиденциальности</a>
+            <a href="/politics.php" class="politics">Политики конфиденциальности</a>
             <div class="ruso-block">
               <span class="desing">Дизайн и разработка:</span>
               <span class="made-in">Сделано в</span>
