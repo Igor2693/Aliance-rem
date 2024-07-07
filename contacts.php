@@ -34,5 +34,8 @@ include_once('header-page.php');?>
           <!-- /.footer-social -->
         </div>
 </div>
+<div class="container">
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab6db50b9f72e3fc17797f16ca4ccfa2d7ce089f0f7d4e420a2d98841aa406082&amp;width=100%25&amp;height=434&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
 
 <?php include_once('footer.php');?>
