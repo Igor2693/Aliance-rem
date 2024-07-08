@@ -13,7 +13,11 @@
             </p>
           </div>
           <!-- /.card-info -->
-          <img src="/img/avto-him.png" alt="avto him" class="card-image">
+          <picture class="card-image">
+            <source type="image/webp" srcset="/img/avto-him.webp">
+            <source type="image/jpeg" srcset="/img/avto-him.png">
+            <img src="/img/avto-him.png" alt="avto">
+          </picture>
         </a>
         <a href="#" class="card">
           <div class="card-info">
@@ -24,7 +28,12 @@
             </p>
           </div>
           <!-- /.card-info -->
-          <img src="/img/bit-him.png" alt="bit him" class="card-image">
+           <picture class="card-image">
+            <source type="image/webp" srcset="/img/bit-him.webp">
+            <source type="image/jpeg" srcset="/img/bit-him.png">
+            <img src="/img/bit-him.png" alt="bit him">
+          </picture>
+          
         </a>
         <a href="#" class="card">
           <div class="card-info">
@@ -34,7 +43,12 @@
             </p>
           </div>
           <!-- /.card-info -->
-          <img src="/img/dezinfect.png" alt="dez" class="card-image">
+          <picture class="card-image">
+            <source type="image/webp" srcset="/img/dezinfect.webp">
+            <source type="image/jpeg" srcset="/img/dezinfect.png">
+            <img src="/img/dezinfect.png" alt="dez">
+          </picture>
+          
         </a>
         <!-- /.card -->
         
@@ -47,7 +61,11 @@
             </p>
           </div>
           <!-- /.card-info -->
-          <img src="/img/dezinfect.png" alt="diz" class="card-image">
+          <picture class="card-image">
+            <source type="image/webp" srcset="/img/dezinfect.webp">
+            <source type="image/jpeg" srcset="/img/dezinfect.png">
+            <img src="/img/dezinfect.png" alt="dez">
+          </picture>
         </a>
         <!-- /.card -->
         
@@ -59,7 +77,12 @@
             </p>
           </div>
           <!-- /.card-info -->
-          <img src="/img/avto-him.png" alt="avto" class="card-image">
+           <picture class="card-image">
+            <source type="image/webp" srcset="/img/avto-him.webp">
+            <source type="image/jpeg" srcset="/img/avto-him.png">
+            <img src="/img/avto-him.png" alt="avto">
+          </picture>
+          
         </a>
         <a href="#" class="card">
           <div class="card-info">
@@ -70,7 +93,11 @@
             </p>
           </div>
           <!-- /.card-info -->
-          <img src="/img/bit-him.png" alt="bit" class="card-image">
+          <picture class="card-image">
+            <source type="image/webp" srcset="/img/bit-him.webp">
+            <source type="image/jpeg" srcset="/img/bit-him.png">
+            <img src="/img/bit-him.png" alt="bit him">
+          </picture>
         </a>
         <!-- /.card -->
 

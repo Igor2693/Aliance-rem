@@ -22,7 +22,12 @@ include_once('header-page.php');?>
         </p>
         </a>
         <a href="#" class="swiper-slide blog-card">
-          <img src="/img/fac.png" alt="factorio" class="blog-card-image">
+          <picture class="blog-card-image">
+            <source type="image/webp" srcset="/img/fac.webp">
+            <source type="image/jpeg" srcset="/img/fac.png">
+            <img src="/img/fac.png" alt="factorio">
+          </picture>
+  
           <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
           <p class="blog-card-text">
             Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...

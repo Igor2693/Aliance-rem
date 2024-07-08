@@ -76,7 +76,12 @@ include_once('header-page.php');?>
 
 
   <section class="founder founder-about">
-    <img src="/img/founder.jpg" alt="founder" class="founder-photo">
+    <picture class="founder-photo">
+      <source type="image/webp" srcset="/img/founder.webp">
+      <source type="image/jpeg" srcset="/img/founder.jpg">
+      <img src="/img/founder.jpg" alt="founder">
+    </picture>
+    
     <div class="container">
       <div class="founder-content-wrapper">
         <div class="founder-content">

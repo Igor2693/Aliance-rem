@@ -1,6 +1,11 @@
 <section class="section-cta">
       <div class="bg-grey cta">
-        <img src="/img/cta.png" alt="call to action" class="cta-image">
+        <picture class="cta-image">
+          <source type="image/webp" srcset="/img/cta.webp">
+          <source type="image/jpeg" srcset="/img/cta.png">
+          <img src="/img/cta.png" alt="call to action">
+        </picture>
+        
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
             <h2 class="section-title cta-title">Хотите сотрудничать?</h2>
@@ -60,7 +65,7 @@
             <svg class="phone-icon-footer" width="24" height="24">
               <use href="/img/sprite.svg#mark"></use>
             </svg>
-            <a class="footer-info-adress">г. Мосвка, Холодильный пер. 4к1с8</a>
+            <a href="#" class="footer-info-adress">г. Мосвка, Холодильный пер. 4к1с8</a>
           </div>
           <!-- /.footer-info -->
           <div class="footer-info footer-email">
@@ -71,12 +76,12 @@
           </div>
           <!-- /.footer-info -->
           <div class="footer-social">
-            <a href="#" class="footer-social-link">
+            <a href="https://vk.com/" class="footer-social-link">
               <svg class="footer-social-icon" width="24" height="24">
                 <use href="/img/sprite.svg#vk"></use>
               </svg>
             </a>
-            <a href="#" class="footer-social-link">
+            <a href="https://www.instagram.com/" class="footer-social-link">
               <svg class="footer-social-icon" width="24" height="24">
                 <use href="/img/sprite.svg#inst"></use>
               </svg>

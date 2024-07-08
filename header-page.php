@@ -108,7 +108,7 @@
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
     </a>
-    <a href="./" class="header-logo">
+    <a href="/index.php" class="header-logo">
       <svg class="logo-svg logo-light">
         <use href="/img/sprite.svg#logo-light"></use>
       </svg>
