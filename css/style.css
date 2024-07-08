@@ -7,6 +7,8 @@ html {
 @font-face {
   font-family: 'Bebas Neue';
   src: url('/fonts/BebasNeueBook.woff') format('woff'),
+
+
 }
 body {
   font-family: "Noto Sans", sans-serif;
