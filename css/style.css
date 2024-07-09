@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+@import url("/css/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 html {
   font-size: 16px;
 }
@@ -73,8 +75,11 @@ body {
   margin: auto; */
 
 }
-.header-image {
+.no-webp .header-image {
   background-image: url('/img/bg-main.jpeg');
+}
+.header-image {
+  background-image: url('/img/bg-main.webp');
   background-size: cover;
   background-repeat: no-repeat;
   

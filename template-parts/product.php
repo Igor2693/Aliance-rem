@@ -16,7 +16,7 @@
           <picture class="card-image">
             <source type="image/webp" srcset="/img/avto-him.webp">
             <source type="image/jpeg" srcset="/img/avto-him.png">
-            <img src="/img/avto-him.png" alt="avto">
+            <img src="/img/avto-him.png" alt="avto" class="card-image">
           </picture>
         </a>
         <a href="#" class="card">
@@ -31,7 +31,7 @@
            <picture class="card-image">
             <source type="image/webp" srcset="/img/bit-him.webp">
             <source type="image/jpeg" srcset="/img/bit-him.png">
-            <img src="/img/bit-him.png" alt="bit him">
+            <img src="/img/bit-him.png" alt="bit him" class="card-image">
           </picture>
           
         </a>
@@ -46,7 +46,7 @@
           <picture class="card-image">
             <source type="image/webp" srcset="/img/dezinfect.webp">
             <source type="image/jpeg" srcset="/img/dezinfect.png">
-            <img src="/img/dezinfect.png" alt="dez">
+            <img src="/img/dezinfect.png" alt="dez" class="card-image">
           </picture>
           
         </a>
@@ -64,7 +64,7 @@
           <picture class="card-image">
             <source type="image/webp" srcset="/img/dezinfect.webp">
             <source type="image/jpeg" srcset="/img/dezinfect.png">
-            <img src="/img/dezinfect.png" alt="dez">
+            <img src="/img/dezinfect.png" alt="dez" class="card-image">
           </picture>
         </a>
         <!-- /.card -->
@@ -80,7 +80,7 @@
            <picture class="card-image">
             <source type="image/webp" srcset="/img/avto-him.webp">
             <source type="image/jpeg" srcset="/img/avto-him.png">
-            <img src="/img/avto-him.png" alt="avto">
+            <img src="/img/avto-him.png" alt="avto" class="card-image">
           </picture>
           
         </a>
@@ -96,7 +96,7 @@
           <picture class="card-image">
             <source type="image/webp" srcset="/img/bit-him.webp">
             <source type="image/jpeg" srcset="/img/bit-him.png">
-            <img src="/img/bit-him.png" alt="bit him">
+            <img src="/img/bit-him.png" alt="bit him" class="card-image">
           </picture>
         </a>
         <!-- /.card -->
