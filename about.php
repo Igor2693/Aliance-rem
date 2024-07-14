@@ -99,10 +99,10 @@ include_once('header-page.php');?>
 
 
   <section class="founder founder-about">
-    <picture class="founder-photo">
+    <picture>
       <source type="image/webp" srcset="/img/founder.webp">
       <source type="image/jpeg" srcset="/img/founder.jpg">
-      <img src="/img/founder.jpg" alt="founder">
+      <img src="/img/founder.jpg" alt="founder" class="founder-photo">
     </picture>
     
     <div class="container">
@@ -245,4 +245,4 @@ include_once('header-page.php');?>
   <!-- /.section clients -->
 
 
-   <?php include_once('footer.php');?>
+ <?php include_once('footer.php');?>

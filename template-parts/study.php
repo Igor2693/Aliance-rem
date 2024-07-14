@@ -24,33 +24,33 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <a href="#" class="swiper-slide blog-card">
-            <picture class="blog-card-image">
+            <picture>
+              <source type="image/webp" srcset="/img/study-manuf.webp">
+              <source type="image/jpeg" srcset="/img/study-manuf.jpg">
+              <img src="/img/study-manuf.jpg" alt="manuf photo" class="blog-card-image">
+            </picture>
+            
+          </a>
+          <a href="#" class="swiper-slide blog-card">
+            <picture>
+              <source type="image/webp" srcset="/img/study-lab.webp">
+              <source type="image/jpeg" srcset="/img/study-lab.jpg">
+              <img src="/img/study-lab.jpg" alt="lab photo" class="blog-card-image">
+            </picture>
+            
+          </a>
+          <a href="#" class="swiper-slide blog-card">
+            <picture>
               <source type="image/webp" srcset="/img/study-manuf.webp">
               <source type="image/jpeg" srcset="/img/study-manuf.jpg">
               <img src="/img/study-manuf.jpg" alt="manuf photo">
             </picture>
-            
           </a>
           <a href="#" class="swiper-slide blog-card">
             <picture class="blog-card-image">
               <source type="image/webp" srcset="/img/study-lab.webp">
               <source type="image/jpeg" srcset="/img/study-lab.jpg">
-              <img src="/img/study-lab.jpg" alt="lab photo">
-            </picture>
-            
-          </a>
-          <a href="#" class="swiper-slide blog-card">
-            <picture class="blog-card-image">
-              <source type="image/webp" srcset="/img/study-manuf.webp">
-              <source type="image/jpeg" srcset="/img/study-manuf.jpg">
-              <img src="/img/study-manuf.jpg" alt="manuf photo">
-            </picture>
-          </a>
-          <a href="#" class="swiper-slide blog-card">
-            <picture class="blog-card-image">
-              <source type="image/webp" srcset="/img/study-lab.webp">
-              <source type="image/jpeg" srcset="/img/study-lab.jpg">
-              <img src="/img/study-lab.jpg" alt="lab photo">
+              <img src="/img/study-lab.jpg" alt="lab photo" class="blog-card-image">
             </picture>
           </a>
         </div>

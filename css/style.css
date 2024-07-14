@@ -82,7 +82,6 @@ body {
   background-image: url('/img/bg-main.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  
   background-position: center top;
   position: relative;
     
@@ -158,8 +157,10 @@ body {
   border: none;
   display: inline-block;
   cursor: pointer;
+  max-width: 304px;
 }
 .navbar-button {
+  
   flex-shrink: 0;
   height: 100%;
   padding: 1.5625rem 2.625rem;
@@ -170,6 +171,7 @@ body {
 .header-button {
   height: 100%;
   padding: 1.625rem 3.75rem;
+  /* width: 280px; */
 }
 .seporator {
   background: #5c8ee6;
@@ -288,6 +290,7 @@ body {
   color: #292d33;
   margin-top: 2.1875rem;
   margin-bottom: .625rem;
+  width: 100%;
 }
 .steps-text {
   font-weight: 400;
@@ -383,6 +386,11 @@ body {
   word-spacing: .25rem;
 
 }
+.client-list-icon {
+  flex-shrink: 1;
+  width: 30px;
+  height: 30px;
+}
 
 .card-wrapper {
   display: flex;
@@ -448,6 +456,7 @@ body {
   border: 1px solid #ebebf0;
   transition: border 0.2s;
   display: grid;
+  
   grid-template-columns: 180px 1fr;
   grid-template-rows: auto 2fr;
   grid-column-gap: 3.125rem;
@@ -1369,6 +1378,7 @@ a:hover {
   
   
 }
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;

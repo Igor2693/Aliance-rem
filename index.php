@@ -8,7 +8,7 @@
   <link rel="shortcut icon" href="favicon/flask.png" type="image/x-icon">
   
   <link rel="stylesheet" href="/css/swiper-bundle.min.css">
-  
+  <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css">
   <script>/*! modernizr 3.6.0 (Custom Build) | MIT *
    * https://modernizr.com/download/?-setclasses !*/
@@ -232,7 +232,7 @@
       <div class="founder-content-wrapper">
         <div class="founder-content">
           <div class="seporator"></div>
-          <h2 class="founder-title">Отношение к делу <br> и к клиентам</h2>
+          <h2 class="founder-title">Отношение к делу <br> и к клиентам lorem20</h2>
           <p class="founder-text">
             Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и
             развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые
