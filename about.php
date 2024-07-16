@@ -24,6 +24,7 @@ include_once('header-page.php');?>
         <!-- /.main-info -->
       </div>
       <!-- /.main-contant -->
+  </section>
 
  <?php include_once('./template-parts/swiper-product.php');?>
 
@@ -102,7 +103,7 @@ include_once('header-page.php');?>
     <picture>
       <source type="image/webp" srcset="/img/founder.webp">
       <source type="image/jpeg" srcset="/img/founder.jpg">
-      <img src="/img/founder.jpg" alt="founder" class="founder-photo">
+      <img src="/img/founder.jpg" alt="founder" class=" founder-photo founder-photo-about ">
     </picture>
     
     <div class="container">
@@ -110,7 +111,7 @@ include_once('header-page.php');?>
         <div class="founder-content">
           <div class="seporator"></div>
           <h2 class="founder-title">Отношение к делу <br> и к клиентам</h2>
-          <p class="founder-text">
+          <p class="founder-text founder-text-about">
             Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление
             и
             развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно,
@@ -118,14 +119,14 @@ include_once('header-page.php');?>
             государства, которые представляют собой яркий пример континентально-европейского типа политической культуры,
             будут
             подвергнуты целой серии независимых исследований. С учётом сложившейся международной обстановки, синтетическое
-            тестирование выявляет срочную потребность системы массового участия. <br> <br>
+            тестирование выявляет срочную потребность системы массового участия. <br> 
             А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной
             степени
             предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной
             степени
             обусловливает важность дальнейших направлений развития.
           </p>
-          <a href="#" class="button-link">О нашей миссии</a>
+          <a href="#" class="button-link button-link-about">О нашей миссии</a>
         </div>
         <!-- /.founder-content -->
       </div>

@@ -23,7 +23,7 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <a href="#" class="swiper-slide blog-card">
+          <a href="#" class="swiper-slide blog-card blog-card-about ">
             <picture>
               <source type="image/webp" srcset="/img/study-manuf.webp">
               <source type="image/jpeg" srcset="/img/study-manuf.jpg">
@@ -31,7 +31,7 @@
             </picture>
             
           </a>
-          <a href="#" class="swiper-slide blog-card">
+          <a href="#" class="swiper-slide blog-card blog-card-about">
             <picture>
               <source type="image/webp" srcset="/img/study-lab.webp">
               <source type="image/jpeg" srcset="/img/study-lab.jpg">
@@ -39,14 +39,14 @@
             </picture>
             
           </a>
-          <a href="#" class="swiper-slide blog-card">
+          <a href="#" class="swiper-slide blog-card blog-card-about">
             <picture>
               <source type="image/webp" srcset="/img/study-manuf.webp">
               <source type="image/jpeg" srcset="/img/study-manuf.jpg">
-              <img src="/img/study-manuf.jpg" alt="manuf photo">
+              <img src="/img/study-manuf.jpg" alt="manuf photo" class="blog-card-image">
             </picture>
           </a>
-          <a href="#" class="swiper-slide blog-card">
+          <a href="#" class="swiper-slide blog-card blog-card-about">
             <picture class="blog-card-image">
               <source type="image/webp" srcset="/img/study-lab.webp">
               <source type="image/jpeg" srcset="/img/study-lab.jpg">

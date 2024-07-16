@@ -33,7 +33,7 @@
             <svg width="36" height="36">
               <use href="/img/sprite.svg#speed"></use>
             </svg>
-            <p class="header-features-text main-slider-text">Оперативное производство</p>
+            <p class="header-features-text main-slider-text">Оперативное <br> производство</p>
           </li>
         </ul>
         <!-- кнопки навигации назад/вперед -->

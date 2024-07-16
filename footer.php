@@ -1,5 +1,5 @@
-<section class="section-cta">
-      <div class="bg-grey cta">
+<section class="section-cta section-cta-about">
+      <div class="bg-grey bg-grey-about cta">
       <picture>
         <source type="image/webp" srcset="/img/cta.webp">
         <source type="image/jpeg" srcset="/img/cta.png">

@@ -19,7 +19,7 @@
             <img src="/img/avto-him.png" alt="avto" class="card-image">
           </picture>
         </a>
-        <a href="#" class="card">
+        <a href="#" class="card card-2">
           <div class="card-info">
             <h3 class="card-title">Бытовая химия</h3>
             <p class="card-subtitle">
@@ -35,9 +35,9 @@
           </picture>
           
         </a>
-        <a href="#" class="card">
+        <a href="#" class="card card-3">
           <div class="card-info">
-            <h3 class="card-title">Дезинфицирующие средства</h3>
+            <h3 class="card-title card-title-3">Дезинфицирующие средства</h3>
             <p class="card-subtitle">
               Лишь интерактивные прототипы <br> призваны к ответу.
             </p>
@@ -53,7 +53,7 @@
         <!-- /.card -->
         
         
-        <a href="#" class="card">
+        <a href="#" class="card card-4">
           <div class="card-info">
             <h3 class="card-title">Пищевые аэрозоли</h3>
             <p class="card-subtitle">
@@ -69,7 +69,7 @@
         </a>
         <!-- /.card -->
         
-        <a href="#" class="card">
+        <a href="#" class="card card-5">
           <div class="card-info">
             <h3 class="card-title">Косметическая продукция</h3>
             <p class="card-subtitle">
@@ -84,7 +84,7 @@
           </picture>
           
         </a>
-        <a href="#" class="card">
+        <a href="#" class="card card-6">
           <div class="card-info">
             <h3 class="card-title">Краски аэрозольные</h3>
             <p class="card-subtitle">

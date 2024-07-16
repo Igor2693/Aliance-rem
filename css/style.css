@@ -118,9 +118,11 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  padding-top: .375rem;
+  word-spacing: .125rem;
 }
 .header-nav-item:not(:last-child) {
-  margin-right: 5%;
+  margin-right: 5.6%;
 }
 .header-nav-link {
   display: flex;
@@ -157,7 +159,7 @@ body {
   border: none;
   display: inline-block;
   cursor: pointer;
-  max-width: 304px;
+  /* max-width: 19.6875rem; */
 }
 .navbar-button {
   
@@ -171,7 +173,7 @@ body {
 .header-button {
   height: 100%;
   padding: 1.625rem 3.75rem;
-  /* width: 280px; */
+  width: 19.6875rem;
 }
 .seporator {
   background: #5c8ee6;
@@ -203,6 +205,7 @@ body {
   font-size: 1rem;
   line-height: 160%;
   margin-bottom: 3.125rem;
+  word-spacing: .4375rem;
 }
 .header-features {
   display: flex;
@@ -218,6 +221,7 @@ body {
   min-height: 100%;
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
+  
 }
 
 .header-features-text {
@@ -291,6 +295,7 @@ body {
   margin-top: 2.1875rem;
   margin-bottom: .625rem;
   width: 100%;
+  letter-spacing: .0625rem;
 }
 .steps-text {
   font-weight: 400;
@@ -299,6 +304,7 @@ body {
   color: #828a99;
   margin-top: .625rem;
   margin-bottom: 1.25rem;
+  word-spacing: .5625rem;
 }
 .button-link {
   display: flex;
@@ -345,7 +351,7 @@ body {
 
 .production {
   margin-bottom: 9.375rem;
-  margin-top: 8.4375rem;
+  margin-top: 6.6875rem;
 }
 .production-title {
   color: rgb(41, 45, 51);
@@ -364,7 +370,9 @@ body {
   margin-top: 1.6875rem;
   margin-bottom: 3.5625rem;
   word-spacing: .4375rem;
-
+}
+.trademark-title-mobole {
+  display: none;
 }
 .founder-title {
   color: rgb(41, 45, 51);
@@ -486,6 +494,7 @@ body {
   color: #828a99;
   grid-area: text;
   margin-top: .625rem;
+  word-spacing: .4375rem;
 }
 .trademark-card:hover {
   border-color: #5C8EE6;
@@ -514,7 +523,7 @@ body {
 .founder-content-wrapper {
   display: flex;
   justify-content: flex-end;
-  padding-top: 3.1875rem;
+  padding-top: 3.375rem;
 }
 .founder-text {
   color: rgb(130, 138, 153);
@@ -522,10 +531,14 @@ body {
   font-weight: 400;
   line-height: 160%;
   margin-bottom: 1.75rem;
+  word-spacing: .375rem;
 }
 
 .clients {
   padding-top: 53px;
+}
+.about-clients {
+  padding-top: 47px;
 }
 .client-wrapper {
   display: flex;
@@ -583,7 +596,7 @@ body {
 }
 .founder-about {
   margin-top: 8.9375rem;
-  margin-bottom: 12.625rem;
+  margin-bottom: 10.875rem;
 }
 .blog {
   margin-top: 11.4375rem;
@@ -604,6 +617,9 @@ body {
   color: #fff;
   padding-bottom: 2.1875rem;
   
+}
+.blog-card-about {
+  padding: 0;
 }
 .blog-card-image {
   position: absolute;
@@ -649,6 +665,9 @@ body {
   position: relative;
   margin-top: 8rem;
 
+}
+.section-cta-about {
+  margin-top: 8rem;
 }
 .cta-image {
   position: absolute;
@@ -760,7 +779,7 @@ body {
 .footer-info {
   display: flex;
   align-items: center;
-  gap: .625rem;
+  gap: .375rem;
 }
 
 .footer-logo {
@@ -788,6 +807,7 @@ body {
   font-style: normal;
   text-decoration: none;
   cursor: pointer;
+  word-spacing: .375rem;
 }
 .footer-social-link {
   text-decoration: none;
@@ -819,12 +839,16 @@ body {
   list-style: none;
   margin: 0;
   margin-left: 1.25rem;
+  
 
+}
+.footer-munu-wrapper {
+  margin-right: 4rem;
 }
 .footer-list-1 {
   columns: 2 auto;
-  gap: 8.125rem;
-  margin-right: 7.375rem;
+  gap: 9.125rem;
+  margin-right: 7.7rem;
 }
 .footer-list-2 {
   margin-right: 11.875rem;
@@ -1135,11 +1159,11 @@ a:hover {
 .main-border {
   border-color: #EBEBF0;
 }
-.slider-buttons-main 
+/* .slider-buttons-main 
 .slider-button-prev,
  .slider-button-next {
   border-color: #EBEBF0;
-}
+} */
 
 /* manufacture */
 .manufacture {
@@ -1378,7 +1402,12 @@ a:hover {
   
   
 }
-
+.founder-br {
+  display: none;
+}
+.desk-br {
+  display: inline;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -1616,11 +1645,11 @@ a:hover {
       display: none;
     }
     .close-menu .mobile-menu-line:nth-child(1) {
-      transform: rotate(45deg) translateY(9px);
+      transform: rotate(45deg) translateY(10px);
       
     }
     .close-menu .mobile-menu-line:nth-child(3){
-      transform: rotate(-45deg) translateY(-9px);
+      transform: rotate(-45deg) translateY(-10px);
     }
       .marks-card {
         flex-basis: 100%;
@@ -2020,7 +2049,7 @@ a:hover {
     line-height: 135%;
     color: #828a99;
     margin-top: .625rem;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
     word-spacing: 2px;
   }
   .steps-link {
@@ -2048,7 +2077,7 @@ a:hover {
     padding-right: 1.25rem;
    }
   .card-title {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
     line-height: 140%;
     margin: 0;
@@ -2056,12 +2085,24 @@ a:hover {
     word-spacing: 3px;
    }
   .card-subtitle {
-    font-size: 15px;
+    font-family: Noto Sans;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 148%;
+    line-height: 126%;
     margin: 0;
     margin-bottom: 25.6rem;
     word-spacing: -5px;
+   }
+   .card-2,
+   .card-3,
+   .card-4,
+   .card-5,
+   .card-6 {
+    height: 429px;
+   }
+   .card-title-3 {
+    width: 250px;
+    line-height: 118%;
    }
    .trade-invis {
     display: none;
@@ -2070,10 +2111,20 @@ a:hover {
 
    .trademark {
     margin-top: 6.3125rem;
+    margin-bottom: 29px;
    }
    .trademark-title {
+    display: none;
+   }
+  .trademark-title-mobole {
+    display: block;
     font-size: 36px;
     margin-bottom: 29px;
+    color: rgb(41, 45, 51);
+    font-family: Bebas Neue;
+    line-height: 120%;
+    margin-top: 17px;
+    word-spacing: .4375rem;
    }
   .production {
     margin-bottom: 8.375rem;
@@ -2106,9 +2157,9 @@ a:hover {
 
   .trademark-card-ap {
     height: 16.75rem;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
-    grid-column-gap: 44px;
+    grid-column-gap: 19px;
     grid-row-gap: 9px;
     padding: 30px;
 
@@ -2117,6 +2168,8 @@ a:hover {
   .trademark-card-title {
     font-size: 20px;
     line-height: 27px;
+    margin-top: 17px;
+    margin-left: -21px;
   }
   .tardemark-card-text {
     font-size: 14px;
@@ -2132,7 +2185,7 @@ a:hover {
   width: 375px;
   height: 295px;
   object-fit: contain;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
  }
  .trademark-cards {
   height: 537px;
@@ -2148,6 +2201,15 @@ a:hover {
   line-height: 22.4px;
   margin-bottom: 21px;
   margin-top: 0;
+  word-spacing: 6px;
+ }
+ .founder-text-about {
+  margin-bottom: 21px;
+  word-spacing: 1px;
+ }
+ .founder-content .button-link-about {
+    font-size: 14px;
+    gap: 0;
  }
  .founder-content-wrapper {
   margin-top: -128px;
@@ -2278,6 +2340,7 @@ a:hover {
   }
   .founder {
     margin-top: -30px;
+    margin-bottom: 80px;
   }
   .founder-content {
     padding-left: 0;
@@ -2305,7 +2368,8 @@ a:hover {
     font-size: 15px;
   }
   .cta-form-text {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
+    word-spacing: 3px;
   }
   .notify {
     gap: 11px;
@@ -2325,7 +2389,7 @@ a:hover {
   }
   .footer-info-adress {
     font-size: 15px;
-    margin-bottom: 9px;
+    margin-bottom: 6px;
     word-spacing: -2px;
   }
   .footer-email {
@@ -2338,41 +2402,13 @@ a:hover {
   .footer-social-link {
     margin-right: 12px;
   }
-  /* .footer-bottom {
-    flex-direction: column;
-    padding-top: 29px;
-    padding-bottom: 12px;
-  }
-  .footer-menu-title {
-    font-size: 15px;
-    margin-bottom: 21px;
-  }
-  .footer-list-1 {
-    columns: 1;
-  }
-  .footer-menu-list {
-    margin-left: 21px;
-  }
-  .footer-menu-link {
-    font-size: 14px;
-  }
-  .footer-menu-item {
-    margin-bottom: 9px;
-  }
   .footer-list-2 {
-    margin-top: 19px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
   }
-  .title-about {
-    margin-bottom: 31px;
-  }
-  .title-news {
-    margin-bottom: 28px; 
-  } */
   .footer-copy {
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 19px;
+    padding-top: 17px;
   }
   .politics {
     margin-left: 0;
@@ -2391,7 +2427,7 @@ a:hover {
     display: flex;
   }
   .ruso-block {
-    gap: 11px;
+    gap: 18px;
   }
   .footer-ruso {
     width: 55px;
@@ -2411,6 +2447,7 @@ a:hover {
     font-size: 36px;
     margin-top: 13px;
     line-height: 47px;
+    margin-bottom: 14px;
   }
   .study-text-left {
     display: none;
@@ -2419,7 +2456,7 @@ a:hover {
     margin-bottom: 200px;
   } */
   .study-slider-footer {
-    margin-top: 153px;
+    margin-top: 209px;
     
   }
   .about-title {
@@ -2434,9 +2471,12 @@ a:hover {
   .main-subtitle {
     font-size: 14px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 22px;
     color: #828A99;
     width: 343px;
+    margin-top: -4px;
+    word-spacing: 0;
+    margin-bottom: 1px;
   }
   .manufacture {
     margin-top: 51px;
@@ -2470,7 +2510,7 @@ a:hover {
     font-size: 14px;
     word-spacing: 1px;
     line-height: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
   .about-clients {
     margin-top: 100px;
@@ -2480,6 +2520,64 @@ a:hover {
   }
   .about-phone {
     margin-bottom: 16px;
+  }
+  .header-features-text {
+    font-size: 14px;
+  }
+  .button-link {
+    font-size: 14px;
+  }
+  .button-link::before {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: rgb(92, 142, 230);
+    margin-right: 22px;
+    transition: 0.2s;
+  }
+  .button-link {
+    margin-bottom: 20px;
+  }
+  .trademark-logo-1 {
+    width: 146%;
+  }
+  .trademark-logo-2 {
+    width: 137%;
+    height: 167%;
+    grid-area: logo;
+    margin-top: 12px;
+  }
+  .founder-br {
+    display: inline;
+  }
+  .desk-br {
+    display: none;
+  }
+  .founder-content .button-link-mobile {
+    gap: 0;
+  }
+  .dash {
+    width: 17px;
+  }
+  .breadcrumb-link-1,
+  .breadcrumb-link-2 {
+    font-size: 12px;
+  }
+  .manufacture-left {
+    margin-top: 29px;
+  }
+  .founder-photo-about {
+    margin-bottom: 18px;
+  }
+  .founder-content .button-link-about {
+    font-size: 14px;
+    gap: 0;
+  }
+  .founder-about {
+    margin-bottom: -18px;
+  }
+  .bg-grey-about {
+    padding-top: 43px;
   }
  
 }

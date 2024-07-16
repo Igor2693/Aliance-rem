@@ -6,9 +6,10 @@
         echo '<h2 class="trademark-title">'. $block_title .'</h2>';
       }
       ?>
+      <h2 class="trademark-title-mobole">Собственные марки</h2>
       <div class="trademark-cards">
         <a href="#" class="trademark-card trademark-card-ag ">
-          <svg class="trademark-logo">
+          <svg class="trademark-logo trademark-logo-1">
             <use href="/img/sprite.svg#ag"></use>
           </svg>
           <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
@@ -19,7 +20,7 @@
         <!-- /.trademark-card -->
 
         <a href="#" class="trademark-card trademark-card-ap">
-          <svg class="trademark-logo">
+          <svg class="trademark-logo trademark-logo-2">
             <use href="/img/sprite.svg#ap"></use>
           </svg>
           <h3 class="trademark-card-title">Автохимия AP</h3>

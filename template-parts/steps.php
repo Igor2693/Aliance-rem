@@ -21,13 +21,13 @@
             <span class="steps-num">03</span>
             <h3 class="steps-title">Производство</h3>
             <p class="steps-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на
-              независимые элементы.</p>
+            независимые <br> элементы.</p>
           </li>
           <li class="swiper-slide steps-item">
             <span class="steps-num">04</span>
             <h3 class="steps-title">Доставка</h3>
-            <p class="steps-text">В частности, экономическая повестка сегодняшнего дня говорит о возможностях приоритизации разума
-              над эмоциями.</p>
+            <p class="steps-text">В частности, экономическая повестка сегодняшнего дня говорит о возможностях приоритизации <br> разума
+            над эмоциями.</p>
           </li>
         </ol>
         <div class="steps-buttons primary-buttons-wrapper">
