@@ -243,7 +243,10 @@
             предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени
             обусловливает важность дальнейших направлений развития.
           </p>
-          <a href="#" class="button-link button-link-mobile ">О нашей миссии</a>
+          <a href="#" class="button-link button-link-mobile"> 
+            <span class="button-link-desk">Подробнее о компании</span>
+            <span class="button-link-mob">О нашей миссии</span> 
+            </a>
         </div>
         <!-- /.founder-content -->
       </div>
@@ -326,28 +329,28 @@
             <div class="client-logo-item">
               <img src="/img/bk-logo.png" alt="" class="clients-logo">
             </div>
-            <div class="client-logo-item">
+            <div class="client-logo-item client-logo-item-2">
+              <img src="/img/bk-logo.png" alt="" class="clients-logo">
+            </div>
+            <div class="client-logo-item client-logo-item-3">
               <img src="/img/bk-logo.png" alt="" class="clients-logo">
             </div>
             <div class="client-logo-item">
               <img src="/img/bk-logo.png" alt="" class="clients-logo">
             </div>
-            <div class="client-logo-item">
+            <div class="client-logo-item client-logo-item-2">
+              <img src="/img/bk-logo.png" alt="" class="clients-logo">
+            </div>
+            <div class="client-logo-item client-logo-item-3">
               <img src="/img/bk-logo.png" alt="" class="clients-logo">
             </div>
             <div class="client-logo-item">
               <img src="/img/bk-logo.png" alt="" class="clients-logo">
             </div>
-            <div class="client-logo-item">
+            <div class="client-logo-item client-logo-item-2">
               <img src="/img/bk-logo.png" alt="" class="clients-logo">
             </div>
-            <div class="client-logo-item">
-              <img src="/img/bk-logo.png" alt="" class="clients-logo">
-            </div>
-            <div class="client-logo-item">
-              <img src="/img/bk-logo.png" alt="" class="clients-logo">
-            </div>
-            <div class="client-logo-item">
+            <div class="client-logo-item client-logo-item-3">
               <img src="/img/bk-logo.png" alt="" class="clients-logo">
             </div>
            </div>

@@ -96,7 +96,9 @@
        <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title">Контрактное производство</h2>
+            <h2 class="footer-menu-title">
+              <a href="/contracts.php" class="footer-link-info">Контрактное производство</a>
+            </h2>
             <ul class="footer-menu-list footer-list-1">
               <li class="footer-menu-item">
                 <a href="/avtohim.php" class="footer-menu-link">Автомобильная химия</a>
@@ -120,7 +122,9 @@
           </div>
           <!-- /.footer-menu-wrapper -->
           <div class="footer-menu-wrapper footer-list-2">
-            <h2 class="footer-menu-title">Собственные марки</h2>
+            <h2 class="footer-menu-title">
+              <a href="/trademarks.php" class="footer-link-info">Собственные марки</a>
+            </h2>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
                 <a href="/avtohim-ag.php" class="footer-menu-link">Автохимия AG-Tech</a>
@@ -132,9 +136,15 @@
           </div>
           <!-- /.footer-menu-wrapper -->
           <div class="footer-menu-wrapper footer-list-3">
-            <h2 class="footer-menu-title title-about">О компании</h2>
-            <h2 class="footer-menu-title title-news">Новости</h2>
-            <h2 class="footer-menu-title">Контакты</h2>
+            <h2 class="footer-menu-title title-about">
+              <a href="/about.php" class="footer-link-info">О компании</a>  
+            </h2>
+            <h2 class="footer-menu-title title-news">
+              <a href="#" class="footer-link-info">Новости</a>
+            </h2>
+            <h2 class="footer-menu-title">
+              <a href="/contacts.php" class="footer-link-info">Контакты</a>
+            </h2>
           </div>
           <!-- /.footer-menu-wrapper -->
         </div>

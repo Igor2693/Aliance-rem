@@ -384,6 +384,9 @@ body {
   /* word-spacing: .4375rem; */
 
 }
+.button-link-mob {
+  display: none;
+}
 .client-title {
   color: rgb(41, 45, 51);
   font-family: Bebas Neue;
@@ -403,6 +406,8 @@ body {
 .card-wrapper {
   display: flex;
   flex-wrap: wrap;
+  width: 90rem;
+  justify-content: center;
 }
 .card {
   display: block;
@@ -424,27 +429,32 @@ body {
 
 .card-info {
   padding-top: 2.7rem;
-  padding-left: 3.125rem;
+  padding-left: 2.625rem;
   padding-right: 1.25rem;
 }
 
 .card-title {
   color: rgb(41, 45, 51);
-  font-family: Noto Sans;
+  font-family: Noto Sans, sans-serif;
   font-size: 1.75rem;
   font-weight: 400;
   line-height: 140%;
   margin: 0;
   margin-bottom: .625rem;
+  word-spacing: .5625rem;
+}
+.card-title-3,
+.card-title-6 {
+  padding-left: .5rem;
 }
 .card-subtitle {
   color: rgb(130, 138, 153);
   font-family: Noto Sans;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 147%;
   margin: 0;
-  margin-bottom: 24.6rem;
+  margin-bottom: 24.375rem;
 
 }
 .card-image {
@@ -566,9 +576,10 @@ body {
 .clients-logo-list {
   display: flex;
   flex-wrap: wrap;
-  flex-shrink: 10;
+  /* flex-shrink: 10; */
   padding-top: 1.8125rem;
   margin-left: -1.5625rem;
+  width: 45rem;
 }
 .client-logo-item {
   flex-basis: 33%;
@@ -577,9 +588,16 @@ body {
   justify-content: center;
   border: 1px solid #ebebf0;
   padding: 1rem;
-  padding-bottom: 0;
+  padding-bottom: .9375rem;
   cursor: pointer;
-  
+  width: 15rem;
+  height: 10rem;
+}
+.client-logo-item-2 {
+  padding-left: 1.875rem;
+}
+.client-logo-item-3 {
+  padding-left: 2.6875rem;
 }
 .clients-logo {
   max-width: 100%;
@@ -599,7 +617,7 @@ body {
   margin-bottom: 10.875rem;
 }
 .blog {
-  margin-top: 11.4375rem;
+  margin-top: 9.4375rem;
 }
 .section-blog {
   word-spacing: .1875rem;
@@ -862,6 +880,10 @@ body {
 }
 .footer-menu-item {
   margin-bottom: .9375rem;
+}
+.footer-link-info {
+  text-decoration: none;
+  color: inherit;
 }
 .footer-copy {
   display: flex;
@@ -1408,6 +1430,7 @@ a:hover {
 .desk-br {
   display: inline;
 }
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -1498,7 +1521,7 @@ a:hover {
   }
   /* .footer-social { */
     /* width: 50px; */
-  }
+  /* } */
   /* .input-group-wrapper {
     flex-direction: column;
   }
@@ -1514,8 +1537,17 @@ a:hover {
   .footer-list-2 {
     margin-right: 8.8rem;
   }
+  .card-wrapper {
+    width: auto;
+  }
+  .clients-logo-list {
+    flex-shrink: 10;
+  }
+  .clients-logo-list {
+    flex-shrink: 10;
+  }
 
-  
+}
 
 
 @media (max-width: 992px) {
@@ -1944,6 +1976,9 @@ a:hover {
   
     .title-news {
       margin-bottom: 28px;
+    }
+    .clients-logo-list {
+      width: auto;
     }
   
 }
@@ -2578,6 +2613,23 @@ a:hover {
   }
   .bg-grey-about {
     padding-top: 43px;
+  }
+  .button-link-desk {
+    display: none;
+  }
+  .button-link-mob {
+    display: inline;
+  }
+  .clients-logo-list {
+    width: auto;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  
+  }
+  
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
   }
  
 }

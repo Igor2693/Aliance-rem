@@ -1,5 +1,5 @@
 <section class="section production">
-    <div class="container">
+    <div class="container container-product">
       <div class="seporator"></div>
       <h2 class="production-title">Контрактное производство</h2>
       <div class="card-wrapper">
@@ -86,7 +86,7 @@
         </a>
         <a href="#" class="card card-6">
           <div class="card-info">
-            <h3 class="card-title">Краски аэрозольные</h3>
+            <h3 class="card-title card-title-6">Краски аэрозольные</h3>
             <p class="card-subtitle">
               А также стремящиеся вытеснить <br> традиционное производство, <br> нанотехнологии функционально <br> разнесены на независимые
               элементы.
