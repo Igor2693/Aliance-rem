@@ -1640,11 +1640,11 @@ body {
   }
   .mobile-menu-toggle {
     width: 80px;
-    height: 100%;
+    height: 73px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 28.8px;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -1750,11 +1750,11 @@ body {
       display: none;
     }
     .close-menu .mobile-menu-line:nth-child(1) {
-      transform: rotate(45deg) translateY(18px);
+      transform: rotate(45deg) translateY(10px);
       
     }
     .close-menu .mobile-menu-line:nth-child(3){
-      transform: rotate(-45deg) translateY(-18px);
+      transform: rotate(-45deg) translateY(-10px);
     }
       .marks-card {
         flex-basis: 100%;
@@ -2076,11 +2076,11 @@ body {
   }
   .mobile-menu-toggle {
     width: 79px;
-    height: 100%;
+    height: 82px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.6875rem 1.75rem 1.6875rem 1.8125rem;
+    padding: 28px;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .logo-svg {
